@@ -24,7 +24,7 @@
 </head>
 <body>
   <h1>PicTrail Privacy Policy</h1>
-  <p class="updated">Last updated: July 12, 2026</p>
+  <p class="updated">Last updated: November 13, 2026 (applies to PicTrail 1.0.1)</p>
 
   <p>
     PicTrail is an iOS app developed by Koki Yamada. PicTrail helps users view photos
@@ -46,6 +46,8 @@
     Photo library information is used only to display photos on the map.
     Photo location metadata is used only for map display.
     Current location is used only to move the map near your current location.
+    PicTrail requests your current location only when you tap the current location
+    button, and does not store it.
   </p>
 
   <h2>On-Device Processing</h2>
@@ -63,6 +65,57 @@
     externally stored.
   </p>
 
+  <h2>Data Stored on Your Device</h2>
+  <p>
+    After a completed full scan, PicTrail saves a photo location index in the app's
+    private storage on your device. For each photo that has location information, the
+    index contains only:
+  </p>
+  <ul>
+    <li>the photo library identifier of the photo</li>
+    <li>the date the photo was taken</li>
+    <li>the latitude and longitude where the photo was taken</li>
+    <li>the media type (for example, image)</li>
+    <li>the date and time the entry was last updated</li>
+  </ul>
+  <p>
+    The index does not contain photo images, thumbnails, file names, captions, faces,
+    or your current location. PicTrail also saves your chosen photo loading mode
+    (quick mode or full scan) in the app's settings. Thumbnails are kept only in
+    memory while the app is running.
+  </p>
+  <p>
+    The index is protected by iOS data protection and is excluded from iCloud and
+    computer backups. It is not sent off your device.
+  </p>
+
+  <h2>Retention and Deletion</h2>
+  <ul>
+    <li>
+      The index is kept on your device until it is deleted as described below or the
+      app is deleted. Deleting PicTrail deletes the index and the app's settings.
+    </li>
+    <li>
+      If you change PicTrail's photo access to "None" (or access is otherwise no longer
+      allowed), PicTrail deletes the index the next time it starts or returns to the
+      foreground, and clears photos from the screen and memory.
+    </li>
+    <li>
+      If you limit access to selected photos, PicTrail removes entries for photos it can
+      no longer access.
+    </li>
+    <li>
+      If a photo is deleted, or its location information is removed, its entry is
+      removed the next time PicTrail loads photos from the index in full scan mode, or
+      when you run a full scan again. If a photo's location or date is changed, its
+      entry is updated at the same time. Switching to quick mode does not delete the
+      index.
+    </li>
+    <li>
+      If you cancel a full scan, the results of that scan are not saved.
+    </li>
+  </ul>
+
   <h2>Third Parties</h2>
   <p>
     The current version of PicTrail does not use advertising SDKs, analytics SDKs,
@@ -71,6 +124,13 @@
   <p>
     The current version of PicTrail does not share photos, photo location information,
     current location, or photo metadata with third parties.
+  </p>
+  <p>
+    The developer does not operate any server for PicTrail and does not receive any
+    data from the app. The map is provided by Apple's MapKit. To show map images and
+    your current location, iOS communicates with Apple's map and location services.
+    That processing is handled by Apple under Apple's Privacy Policy, and the developer
+    does not receive that data.
   </p>
 
   <h2>Future Advertising</h2>
