@@ -24,7 +24,7 @@
 </head>
 <body>
   <h1>PicTrail Privacy Policy</h1>
-  <p class="updated">Last updated: November 13, 2026 (applies to PicTrail 1.0.1)</p>
+  <p class="updated">Last updated: [publish date] (applies to PicTrail 1.1)</p>
 
   <p>
     PicTrail is an iOS app developed by Koki Yamada. PicTrail helps users view photos
@@ -118,29 +118,58 @@
 
   <h2>Third Parties</h2>
   <p>
-    The current version of PicTrail does not use advertising SDKs, analytics SDKs,
-    login services, or server synchronization.
+    PicTrail uses the Google Mobile Ads SDK to show ads, as described in "Advertising"
+    below. PicTrail does not use analytics SDKs, login services, or server
+    synchronization.
   </p>
   <p>
-    The current version of PicTrail does not share photos, photo location information,
-    current location, or photo metadata with third parties.
+    PicTrail does not share photos, photo location information, current location, or
+    photo metadata with third parties, including advertising providers.
   </p>
   <p>
-    The developer does not operate any server for PicTrail and does not receive any
-    data from the app. The map is provided by Apple's MapKit. To show map images and
+    The developer does not operate any server for PicTrail and does not receive personal
+    data from the app. From AdMob, the developer receives only aggregated reports, such
+    as the number of ad impressions. The map is provided by Apple's MapKit. To show map images and
     your current location, iOS communicates with Apple's map and location services.
     That processing is handled by Apple under Apple's Privacy Policy, and the developer
     does not receive that data.
   </p>
 
-  <h2>Future Advertising</h2>
+  <h2>Advertising</h2>
   <p>
-    PicTrail may introduce ads in a future version. If advertising SDKs are introduced,
-    this Privacy Policy and App Store privacy information will be updated.
+    Starting with version 1.1, PicTrail shows one banner ad on the full scan progress
+    screen only. Ads are provided by Google (Google Mobile Ads SDK / AdMob). Ads are not
+    required to use any feature, and a full scan completes whether or not an ad is
+    shown.
   </p>
   <p>
-    PicTrail will not provide photos, photo location metadata, current location, or
-    photo metadata to advertising SDKs for ad targeting.
+    PicTrail never provides photos, photo location information, current location, or
+    photo metadata to the advertising SDK. Ad requests do not contain keywords or
+    content information from your photo library.
+  </p>
+  <p>
+    PicTrail requests non-personalized ads only and does not ask for permission to track
+    you across apps and websites (App Tracking Transparency), so the advertising
+    identifier (IDFA) is not used. The Google Mobile Ads SDK starts when a full scan
+    screen is shown. Before that, it may only check network reachability.
+  </p>
+  <p>
+    When ads are shown, Google may collect and process the following information under
+    its own policies: device and app identifiers that are not the advertising
+    identifier, approximate location derived from your IP address, ad interactions
+    (for example, impressions and taps), and diagnostic and performance data. Google uses
+    this information to deliver and measure ads, prevent fraud, and improve its
+    services. For details, see
+    <a href="https://policies.google.com/technologies/partner-sites">How Google uses
+    information from sites or apps that use its services</a> and the
+    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+  </p>
+  <!-- DRAFT: keep this paragraph only if the UMP consent flow is implemented, or the app
+       is not distributed in the EEA, the UK and Switzerland (DEC-20261113-002). -->
+  <p>
+    Where required by law (for example, in the European Economic Area, the United
+    Kingdom, and Switzerland), PicTrail asks for your consent before ads are requested,
+    and you can change your choice at any time from the app.
   </p>
 
   <h2>Contact</h2>
