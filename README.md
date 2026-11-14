@@ -1,2 +1,2 @@
 # pictrail-legal
-Legal pages for PicTrail
+Legal pages for PicTavi (formerly PicTrail)
